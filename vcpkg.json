@@ -1,0 +1,10 @@
+{
+  "name": "aoc-2022",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "cxxopts",
+    "curl",
+    "magic-enum",
+    "boost"
+  ]
+}
