@@ -3,6 +3,7 @@
 #include <fstream>
 #include <chrono>
 #include <iostream>
+#include <vector>
 
 void Day12::Day12() {
 	std::ifstream inputFile("inputs/12.txt");
@@ -46,7 +47,7 @@ void Day12::Day12() {
 
 		auto end = std::chrono::steady_clock::now();
 
-		std::cout << "Result Day 11 Part 1: " << "???" << std::endl;
+		std::cout << "Result Day 12 Part 1: " << "???" << std::endl;
 
 		std::chrono::duration<double> elapsed = end - start;
 		std::cout << "Time elapsed: " << elapsed << std::endl;
