@@ -1,5 +1,7 @@
 #pragma once
 
+#include <compare>
+
 namespace Day12 {
 	void Day12();
 
@@ -13,5 +15,7 @@ namespace Day12 {
 	struct Position {
 		int x;
 		int y;
+
+        auto operator<=>(const Position& pOther) const = default;
 	};
 }

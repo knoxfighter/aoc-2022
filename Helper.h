@@ -21,11 +21,3 @@ static inline void trimLeft(std::string& s) {
 		return !std::isspace(ch);
 	}));
 }
-
-#ifdef __linux__
-template<typename T>
-inline std::ostream& operator<<(std::ostream& stream, const std::chrono::duration<T> duration) {
-    stream << duration.count() << " ticks";
-    return stream;
-}
-#endif
